@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 9, 2022, 3:47:03 AM
+    Author     : ahmetsahin
+*/
+
+
+table {
+    width: 100%;
+    padding: 30px;
+}
+table thead th {
+    color: green;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+table tbody tr {
+     border-bottom: 1px solid #eee;
+     cursor: pointer;
+}
+
+table tbody td {
+    padding: 8px 0 8px 0;
+    text-transform: capitalize
+}
+
+table tbody tr td input {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    cursor: pointer;
+}
