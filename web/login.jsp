@@ -19,11 +19,11 @@
         <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
 	    <form action="login" class="form-container">
 		<h3>Giriş Yap</h3>
-		<input value="27658873770" maxlength="11" type="text" name="tckn" placeholder="Tc kimlik no" />
-		<input value="test" type="password" name="password" placeholder="Şifre" />
+		<input value="" maxlength="11" type="text" name="tckn" placeholder="Tc kimlik no" />
+		<input value="" type="password" name="password" placeholder="Şifre" />
 		<select name="userType" class="userTypeSelect">
-		    <option class="firstOption" disabled >Kullanıcı Tipi</option>
-		    <option selected>Personel</option>
+		    <option class="firstOption" disabled selected>Kullanıcı Tipi</option>
+		    <option >Personel</option>
 		    <option>Hasta</option>
 		</select>
 		<div class="d-flex flex-direction-row align-items-center mt-2 mb-2" >
